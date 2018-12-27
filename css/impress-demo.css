@@ -766,6 +766,9 @@ body.impress-mouse-timeout {
     transform: translateY(-50%);
     margin: auto;
   }
+  .live2 {
+    top: 35%;
+  }
   .live > li {
     list-style: none;
     position: relative;
