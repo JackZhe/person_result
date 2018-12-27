@@ -250,11 +250,11 @@ a:focus {
     3D positioning along Z axis.
 */
 
-#title {
+#Y2019 {
     padding: 0;
 }
 
-#title .try {
+#Y2019 .try {
     font-size: 64px;
     position: absolute;
     top: -0.5em;
@@ -267,7 +267,7 @@ a:focus {
     transform:         translateZ(20px);
 }
 
-#title h1 {
+#Y2019 h1 {
     font-size: 180px;
 
     -webkit-transform: translateZ(50px);
@@ -277,7 +277,7 @@ a:focus {
     transform:         translateZ(50px);
 }
 
-#title .footnote {
+#Y2019 .footnote {
     font-size: 32px;
 }
 
@@ -287,21 +287,21 @@ a:focus {
 
     Let's move to 'big thoughts' with centered text and custom font sizes.
 */
-#big {
+#thought {
     width: 600px;
     text-align: center;
     font-size: 60px;
     line-height: 1;
 }
 
-#big strong,
-#big b {
+#thought strong,
+#thought b {
     display: block;
     font-size: 250px;
     line-height: 250px;
 }
 
-#big .thoughts {
+#thought .thoughts {
     font-size: 90px;
     line-height: 150px;
 }
@@ -309,9 +309,8 @@ a:focus {
 /*
     'Tiny ideas' just need some tiny styling.
 */
-#tiny {
-    width: 500px;
-    text-align: center;
+#data {
+    height: 630px;
 }
 
 /*
@@ -866,4 +865,11 @@ body.impress-mouse-timeout {
     /* background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARgAAAEYCAMAAACwUBm+AAAAAXNSR…sCAwYMGDBgwIABA2ZumKuztLnjgQEDBgwYMGDAgNl5mH/4/ltKA6vBNAAAAABJRU5ErkJggg==); */
     background-position: bottom right;
     background-repeat: no-repeat;
+}
+
+.lys h2 {
+    text-indent: 2em;
+}
+.lys strong {
+    font-size: 100px;
 }
