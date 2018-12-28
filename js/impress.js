@@ -1302,6 +1302,7 @@
 
         // Note that right after impress:init event, also impress:stepenter is
         // triggered for the first slide, so that's where code flow continues.
+        // custom
     }, false );
 
     // If default autoplay time was defined in the presentation root, or
